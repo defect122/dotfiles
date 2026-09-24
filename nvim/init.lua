@@ -310,6 +310,7 @@ vim.pack.add({
 		branch = "main",
 		build = ":TSUpdate",
 	},
+	"https://github.com/martindur/zdiff.nvim",
 	"https://github.com/sphamba/smear-cursor.nvim",
 	-- Language Server Protocols
 	"https://www.github.com/neovim/nvim-lspconfig",
@@ -504,6 +505,15 @@ end, { desc = "Preview diff overlay" })
 vim.keymap.set("n", "<leader>hb", function()
 	require("mini.git").show_at_cursor()
 end, { desc = "Git blame/show" })
+
+require("zdiff").setup()
+
+vim.keymap.set("n", "<leader>zd", function()
+	require("zdiff").open()
+end, { desc = "Zdiff (uncommitted)" })
+vim.keymap.set("n", "<leader>zD", function()
+	require("zdiff").open("main")
+end, { desc = "Zdiff (vs main)" })
 
 -- Debugging Configuration
 local dap, dapui = require("dap"), require("dapui")
