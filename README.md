@@ -5,21 +5,26 @@ Editor: Neovim
 | -------------- | --------------- |
 | space | leader key |
 | <leader>pk | Search keymaps |
+
+
 Shell: zsh
+
 
 | Keybind | Function |
 | -------------- | --------------- |
 | C-r | Past Commands |
 | C-t | File paths |
 | A-c | cd using fzf |
+
 Terminal Multiplexer: tmux
+
 
 | Keybind | Function |
 | -------------- | --------------- |
 | C-space | prefix |
 | C-left/right/up/down | Navigate through tmux panes |
 ## Requirements
-For zsh:
+- For zsh:
     - Powerlevel10k
     - Oh My Zsh
     - git
@@ -28,13 +33,13 @@ For zsh:
     - zsh-vi-mode
     - fzf-tab
     - Ripgrep
-For tmux:
+- For tmux:
     - tmux-plugin-manager
     - tmux-plugins/tpm
     - christoomey/vim-tmux-navigator
     - egel/tmux-gruvbox
     - vim-tmux-navigator (nvim)
-For nvim:
+- For nvim:
     - Neovim v0.12>=
     - nvim-treesitter
     - Mason
