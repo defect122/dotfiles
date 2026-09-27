@@ -4,7 +4,7 @@ Editor: Neovim
 | Keybind | Function |
 | -------------- | --------------- |
 | space | leader key |
-| <leader>pk | Search keymaps |
+| \<leader>pk | Search keymaps |
 
 
 Shell: zsh
