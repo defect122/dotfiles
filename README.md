@@ -20,11 +20,6 @@ Terminal Multiplexer: tmux
 | Keybind | Function |
 | -------------- | --------------- |
 | C-space | prefix |
-
-
-| Keybind | Function |
-| -------------- | --------------- |
-| C-space | prefix |
 | C-left/right/up/down | Navigate through tmux panes |
 ## Requirements
 - For zsh:
