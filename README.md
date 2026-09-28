@@ -9,7 +9,6 @@ Editor: Neovim
 
 Shell: zsh
 
-
 | Keybind | Function |
 | -------------- | --------------- |
 | C-r | Past Commands |
@@ -17,7 +16,6 @@ Shell: zsh
 | A-c | cd using fzf |
 
 Terminal Multiplexer: tmux
-
 
 | Keybind | Function |
 | -------------- | --------------- |
